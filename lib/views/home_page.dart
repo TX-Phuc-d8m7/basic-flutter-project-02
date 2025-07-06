@@ -88,16 +88,6 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-  Widget _pageTitle() {
-    return Container(
-      height: _deviceHeight * 0.1,
-      child: Text(
-        "Taskly",
-        style: TextStyle(color: Colors.white, fontSize: 40),
-      ),
-    );
-  }
-
   void _displayTaskPopUp() {
     showDialog(
       context: context,
