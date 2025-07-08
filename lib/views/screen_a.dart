@@ -19,4 +19,8 @@ class ScreenA extends StatelessWidget {
       ),
     );
   }
+
+  Widget titlePage() {
+    return Container(child: Text("Screen A"));
+  }
 }
