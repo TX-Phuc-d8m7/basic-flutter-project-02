@@ -23,4 +23,8 @@ class ScreenA extends StatelessWidget {
   Widget titlePage() {
     return Container(child: Text("Screen A"));
   }
+
+  Widget bodyPage() {
+    return Container(child: Text("Screen A"));
+  }
 }
