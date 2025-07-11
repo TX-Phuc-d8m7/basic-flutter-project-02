@@ -27,4 +27,5 @@ class ScreenA extends StatelessWidget {
   Widget bodyPage() {
     return Container(child: Text("Screen A"));
   }
+  
 }
